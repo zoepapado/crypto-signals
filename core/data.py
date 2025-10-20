@@ -1,4 +1,7 @@
-# core/data.py
+
+from .cache import cache_data
+# (leave the rest as-is; remove any direct import of streamlit.runtime.caching)
+
 import requests
 import pandas as pd
 from datetime import datetime
